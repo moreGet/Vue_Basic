@@ -7,7 +7,10 @@
     <router-link to="/databindinghtml">DatabindingHtml</router-link> |
     <router-link to="/databindinginputtext">DataBindingHtmlInputText</router-link> |
     <router-link to="/Number_TextArea">Number_TextArea</router-link> |
-    <router-link to="/Select_Checkbox_Radio">Select_Checkbox_Radio</router-link>
+    <router-link to="/Select_Checkbox_Radio">Select_Checkbox_Radio</router-link> |
+    <router-link to="/InputTypeAttributeView">InputTypeAttributeView</router-link> |
+    <router-link to="/StyleClassAttributeBindingView">StyleClassAttributeBindingView</router-link> |
+    <router-link to="/ListRenderingView">ListRenderingView</router-link>
   </nav>
   <router-view/>
 </template>

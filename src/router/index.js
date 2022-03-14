@@ -18,32 +18,47 @@ const routes = [
   {
     path: '/basic',
     name: 'BasicView',
-    component: () => import(/* webpackChunkName: "about" */ '../views/BasicView.vue')
+    component: () => import(/* webpackChunkName: "BasicView" */ '../views/BasicView.vue')
   },
   {
     path: '/databinding',
     name: 'DataBindingView',
-    component: () => import(/* webpackChunkName: "about" */ '../views/DataBindingView.vue')
+    component: () => import(/* webpackChunkName: "DataBindingView" */ '../views/DataBindingView.vue')
   },
   {
     path: '/databindinghtml',
     name: 'DataBindingHtml',
-    component: () => import(/* webpackChunkName: "about" */ '../views/DataBindingHtml.vue')
+    component: () => import(/* webpackChunkName: "DataBindingHtml" */ '../views/DataBindingHtml.vue')
   },
   {
     path: '/databindinginputtext',
     name: 'DataBindingHtmlInputText',
-    component: () => import(/* webpackChunkName: "about" */ '../views/DataBindingInputTypeTextView.vue')
+    component: () => import(/* webpackChunkName: "DataBindingInputTypeTextView" */ '../views/DataBindingInputTypeTextView.vue')
   },
   {
     path: '/Number_TextArea',
     name: 'Number_TextArea',
-    component: () => import(/* webpackChunkName: "about" */ '../views/Number_TextArea.vue')
+    component: () => import(/* webpackChunkName: "Number_TextArea" */ '../views/Number_TextArea.vue')
   },
   {
     path: '/Select_Checkbox_Radio',
     name: 'Select_Checkbox_Radio',
-    component: () => import(/* webpackChunkName: "about" */ '../views/Select_Checkbox_Radio.vue')
+    component: () => import(/* webpackChunkName: "Select_Checkbox_Radio" */ '../views/Select_Checkbox_Radio.vue')
+  },
+  {
+    path: '/StyleClassAttributeBindingView',
+    name: 'StyleClassAttributeBindingView',
+    component: () => import(/* webpackChunkName: "ClassAttributeView" */ '../views/StyleClassAttributeBindingView.vue')
+  },
+  {
+    path: '/InputTypeAttributeView',
+    name: 'InputTypeAttributeView',
+    component: () => import(/* webpackChunkName: "InputTypeAttributeView" */ '../views/InputTypeAttributeView.vue')
+  },
+  {
+    path: '/ListRenderingView',
+    name: 'ListRenderingView',
+    component: () => import(/* webpackChunkName: "InputTypeAttributeView" */ '../views/ListRenderingView.vue')
   }
 ]
 
