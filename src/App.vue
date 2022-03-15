@@ -10,7 +10,12 @@
     <router-link to="/Select_Checkbox_Radio">Select_Checkbox_Radio</router-link> |
     <router-link to="/InputTypeAttributeView">InputTypeAttributeView</router-link> |
     <router-link to="/StyleClassAttributeBindingView">StyleClassAttributeBindingView</router-link> |
-    <router-link to="/ListRenderingView">ListRenderingView</router-link>
+    <router-link to="/ListRenderingView">ListRenderingView</router-link> |
+    <router-link to="/RenderingView">RenderingView</router-link> |
+    <router-link to="/EventView">EventView</router-link> |
+    <router-link to="/ComputeView">ComputeView</router-link> |
+    <router-link to="/WatchView">WatchView</router-link> |
+    <router-link to="/Lookup_SaveView">Lookup_SaveView</router-link>
   </nav>
   <router-view/>
 </template>

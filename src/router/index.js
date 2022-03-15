@@ -58,7 +58,32 @@ const routes = [
   {
     path: '/ListRenderingView',
     name: 'ListRenderingView',
-    component: () => import(/* webpackChunkName: "InputTypeAttributeView" */ '../views/ListRenderingView.vue')
+    component: () => import(/* webpackChunkName: "ListRenderingView" */ '../views/ListRenderingView.vue')
+  },
+  {
+    path: '/RenderingView',
+    name: 'RenderingView',
+    component: () => import(/* webpackChunkName: "RenderingView" */ '../views/RenderingView.vue')
+  },
+  {
+    path: '/EventView',
+    name: 'EventView',
+    component: () => import(/* webpackChunkName: "EventView" */ '../views/EventView.vue')
+  },
+  {
+    path: '/ComputeView',
+    name: 'ComputeView',
+    component: () => import(/* webpackChunkName: "ComputeView" */ '../views/ComputeView.vue')
+  },
+  {
+    path: '/WatchView',
+    name: 'WatchView',
+    component: () => import(/* webpackChunkName: "WatchView" */ '../views/WatchView.vue')
+  },
+  {
+    path: '/Lookup_SaveView',
+    name: 'Lookup_SaveView',
+    component: () => import(/* webpackChunkName: "Lookup_SaveView" */ '../views/Lookup_SaveView.vue')
   }
 ]
 
