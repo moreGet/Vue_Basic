@@ -15,7 +15,8 @@
     <router-link to="/EventView">EventView</router-link> |
     <router-link to="/ComputeView">ComputeView</router-link> |
     <router-link to="/WatchView">WatchView</router-link> |
-    <router-link to="/Lookup_SaveView">Lookup_SaveView</router-link>
+    <router-link to="/LookupView">LookupView</router-link> |
+    <router-link to="/SaveView">SaveView</router-link>
   </nav>
   <router-view/>
 </template>

@@ -81,9 +81,14 @@ const routes = [
     component: () => import(/* webpackChunkName: "WatchView" */ '../views/WatchView.vue')
   },
   {
-    path: '/Lookup_SaveView',
-    name: 'Lookup_SaveView',
-    component: () => import(/* webpackChunkName: "Lookup_SaveView" */ '../views/Lookup_SaveView.vue')
+    path: '/LookupView',
+    name: 'LookupView',
+    component: () => import(/* webpackChunkName: "LookupView" */ '../views/LookupView.vue')
+  },
+  {
+    path: '/SaveView',
+    name: 'SaveView',
+    component: () => import(/* webpackChunkName: "SaveView" */ '../views/SaveView.vue')
   }
 ]
 
