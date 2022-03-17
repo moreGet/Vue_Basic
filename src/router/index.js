@@ -89,6 +89,11 @@ const routes = [
     path: '/SaveView',
     name: 'SaveView',
     component: () => import(/* webpackChunkName: "SaveView" */ '../views/SaveView.vue')
+  },
+  {
+    path: '/ServerDataView',
+    name: 'ServerDataView',
+    component: () => import(/* webpackChunkName: "ServerDataView" */ '../views/ServerDataView.vue')
   }
 ]
 

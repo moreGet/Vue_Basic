@@ -16,7 +16,8 @@
     <router-link to="/ComputeView">ComputeView</router-link> |
     <router-link to="/WatchView">WatchView</router-link> |
     <router-link to="/LookupView">LookupView</router-link> |
-    <router-link to="/SaveView">SaveView</router-link>
+    <router-link to="/SaveView">SaveView</router-link> |
+    <router-link to="/ServerDataView">ServerDataView</router-link>
   </nav>
   <router-view/>
 </template>
