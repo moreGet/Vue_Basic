@@ -94,6 +94,11 @@ const routes = [
     path: '/ServerDataView',
     name: 'ServerDataView',
     component: () => import(/* webpackChunkName: "ServerDataView" */ '../views/ServerDataView.vue')
+  },
+  {
+    path: '/ComponentImportView',
+    name: 'ComponentImportView',
+    component: () => import(/* webpackChunkName: "ComponentImportView" */ '../views/ComponentImportView.vue')
   }
 ]
 

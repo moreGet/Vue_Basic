@@ -1,7 +1,30 @@
 <template>
   <div>
-    <button type="button" @click="getProductList">GET PRODUCT LIST!!!</button>
-    <h1 v-cloak>SERVEDR DATA : {{productList}}</h1>
+    <div>
+      <button type="button" @click="getProductList">GET PRODUCT LIST!!!</button>
+      <!-- <h1 v-cloak>SERVEDR DATA : {{productList}}</h1> -->
+    </div>
+
+    <div>
+      <table>
+        <thead>
+          <tr>
+            <th>제품명</th>
+            <th>가격</th>
+            <th>종류</th>
+            <th>배송비</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr :key="i" v-for="(product, i) in productList">
+            <td>{{product.productName}}</td>
+            <td>{{product.price}}</td>
+            <td>{{product.category}}</td>
+            <td>{{product.deliveryPrice}}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
   </div>
 </template>
 
@@ -34,7 +57,12 @@ export default {
         data: data
       }).catch(e => {
         console.log(e)
-        this.productList = '데이터를 받아올 수 없음'
+        this.$swal({
+          icon: 'error',
+          title: 'Oops...',
+          text: 'No Data!'
+        })
+        this.productList = []
       })).data
     }
   } // 함수 정의를 위한 필드
@@ -42,6 +70,20 @@ export default {
 </script>
 
 <style scoped>
+  /* 테이블 정렬은 아래 예약어 스타일로 정렬 해야함 */
+  table {
+      margin-left:auto;
+      margin-right:auto;
+      margin-top: 20px;
+      width: 40%;
+      height: auto;
+  }
+
+  table, td, th {
+      border-collapse : collapse;
+      border : 1px solid black;
+  }
+
   [v-cloak]::before {
       content: '로딩중...'
   }
