@@ -24,7 +24,7 @@ export default {
         icon: 'success',
         title: 'Active!',
         html: '부모 컴포넌트에서 직접 발생시킨 이벤트</br><b>',
-        timer: 2000,
+        timer: 1500,
         timerProgressBar: true,
         didOpen: () => {
           this.$swal.showLoading()
