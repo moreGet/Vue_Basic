@@ -27,6 +27,11 @@
       <h1>부모 데이터 : {{parentsMsg}}</h1>
       <ComponentImportDataChangeParentsView @send-message="changeDataChildToParents"/>
     </div>
+    <hr>
+    <div>
+      <button type="button" @click="showData">부모 버튼</button>
+      <ComponentImportDataSyncView ref="componentImportDataSyncView"/>
+    </div>
   </div>
 </template>
 
@@ -36,6 +41,7 @@ import ChildComponent from './ComponentImportChildView.vue'
 import ComponentImportEventChildView from './ComponentImportEventChildView.vue'
 import ComponentImportDataChangeChildView from './ComponentImportDataChangeChildView.vue'
 import ComponentImportDataChangeParentsView from './ComponentImportDataChangeParentsView.vue'
+import ComponentImportDataSyncView from './ComponentImportDataSyncView.vue'
 
 export default {
   name: 'ComponentImportView',
@@ -45,7 +51,13 @@ export default {
     ChildComponent,
     ComponentImportEventChildView,
     ComponentImportDataChangeChildView,
-    ComponentImportDataChangeParentsView
+    ComponentImportDataChangeParentsView,
+    ComponentImportDataSyncView
+  },
+  computed: {
+    msg () {
+      return this.$refs.componentImportDataSyncView.sampleData
+    }
   },
   data () {
     return {
@@ -73,6 +85,9 @@ export default {
     },
     changeDataChildToParents (data) {
       this.parentsMsg = data
+    },
+    showData () {
+      alert(this.msg)
     }
   } // 함수 정의를 위한 필드
 }
