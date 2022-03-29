@@ -18,7 +18,9 @@
     <router-link to="/LookupView">LookupView</router-link> |
     <router-link to="/SaveView">SaveView</router-link> |
     <router-link to="/ServerDataView">ServerDataView</router-link> |
-    <router-link to="/ComponentImportView">ComponentImportView</router-link>
+    <router-link to="/ComponentImportView">ComponentImportView</router-link> |
+    <router-link to="/SlotUseModalLayoutView">SlotUseModalLayoutView</router-link> |
+    <router-link to="/ProvideInjectView">ProvideInjectView</router-link>
   </nav>
   <router-view/>
 </template>

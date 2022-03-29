@@ -99,6 +99,16 @@ const routes = [
     path: '/ComponentImportView',
     name: 'ComponentImportView',
     component: () => import(/* webpackChunkName: "ComponentImportView" */ '../views/ComponentImportView.vue')
+  },
+  {
+    path: '/SlotUseModalLayoutView',
+    name: 'SlotUseModalLayoutView',
+    component: () => import(/* webpackChunkName: "SlotUseModalLayoutView" */ '../views/SlotUseModalLayoutView.vue')
+  },
+  {
+    path: '/ProvideInjectView',
+    name: 'ProvideInjectView',
+    component: () => import(/* webpackChunkName: "ProvideInjectView" */ '../views/ProvideInjectView.vue')
   }
 ]
 
