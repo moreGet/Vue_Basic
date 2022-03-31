@@ -20,7 +20,8 @@
     <router-link to="/ServerDataView">ServerDataView</router-link> |
     <router-link to="/ComponentImportView">ComponentImportView</router-link> |
     <router-link to="/SlotUseModalLayoutView">SlotUseModalLayoutView</router-link> |
-    <router-link to="/ProvideInjectView">ProvideInjectView</router-link>
+    <router-link to="/ProvideInjectView">ProvideInjectView</router-link> |
+    <router-link to="/MixinsView">MixinsView</router-link>
   </nav>
   <router-view/>
 </template>
