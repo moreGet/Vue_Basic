@@ -114,6 +114,36 @@ const routes = [
     path: '/MixinsView',
     name: 'MixinsView',
     component: () => import(/* webpackChunkName: "MixinsView" */ '../views/MixinsView.vue')
+  },
+  {
+    path: '/CalculatorView',
+    name: 'CalculatorView',
+    component: () => import(/* webpackChunkName: "CalculatorView" */ '../views/CalculatorView.vue')
+  },
+  {
+    path: '/CompositionAPIView',
+    name: 'CompositionAPIView',
+    component: () => import(/* webpackChunkName: "CompositionAPIView" */ '../views/CompositionAPIView.vue')
+  },
+  {
+    path: '/CompositionAPI2View',
+    name: 'CompositionAPI2View',
+    component: () => import(/* webpackChunkName: "CompositionAPI2View" */ '../views/CompositionAPI2View.vue')
+  },
+  {
+    path: '/CompositionAPI3View',
+    name: 'CompositionAPI3View',
+    component: () => import(/* webpackChunkName: "CompositionAPI3View" */ '../views/CompositionAPI3View.vue')
+  },
+  {
+    path: '/CompositionAPI4View',
+    name: 'CompositionAPI4View',
+    component: () => import(/* webpackChunkName: "CompositionAPI4View" */ '../views/CompositionAPI4View.vue')
+  },
+  {
+    path: '/CompositionAPIProvideView',
+    name: 'CompositionAPIProvideView',
+    component: () => import(/* webpackChunkName: "CompositionAPIProvideView" */ '../views/CompositionAPIProvideView.vue')
   }
 ]
 
