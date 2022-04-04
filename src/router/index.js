@@ -144,6 +144,16 @@ const routes = [
     path: '/CompositionAPIProvideView',
     name: 'CompositionAPIProvideView',
     component: () => import(/* webpackChunkName: "CompositionAPIProvideView" */ '../views/CompositionAPIProvideView.vue')
+  },
+  {
+    path: '/CustomDiretiveView',
+    name: '',
+    component: () => import(/* webpackChunkName: "CustomDiretiveView" */ '../views/CustomDiretiveView.vue')
+  },
+  {
+    path: '/PluginsView',
+    name: 'PluginsView',
+    component: () => import(/* webpackChunkName: "PluginsView" */ '../views/PluginsView.vue')
   }
 ]
 
