@@ -24,12 +24,13 @@
     <router-link to="/MixinsView">MixinsView</router-link> |
     <router-link to="/CalculatorView">CalculatorView</router-link> |
     <router-link to="/CompositionAPIView">CompositionAPIView</router-link> |
-    <router-link to="/CompositionAPI2View">CompositionAPI2View</router-link>|
+    <router-link to="/CompositionAPI2View">CompositionAPI2View</router-link> |
     <router-link to="/CompositionAPI3View">CompositionAPI3View</router-link> |
     <router-link to="/CompositionAPI4View">CompositionAPI4View</router-link> |
     <router-link to="/CompositionAPIProvideView">CompositionAPIProvideView</router-link> |
     <router-link to="/CustomDiretiveView">CustomDiretiveView</router-link> |
-    <router-link to="/PluginsView">PluginsView</router-link>
+    <router-link to="/PluginsView">PluginsView</router-link> |
+    <router-link to="/StoreAccessView">StoreAccessView</router-link>
   </nav>
   <router-view/>
 </template>
