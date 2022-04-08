@@ -45,3 +45,8 @@ vueApp.directive('focus', {
 vueApp.mixin(mixins)
 
 vueApp.mount('#app')
+
+/**
+ * KAKAO LOGIN 연동
+ */
+window.Kakao.init('f12d345a4b1568937e9b5845e059fbb9') // 카카오 개발자센터 에서 발급받은 앱 키

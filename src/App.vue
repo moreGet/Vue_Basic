@@ -30,7 +30,8 @@
     <router-link to="/CompositionAPIProvideView">CompositionAPIProvideView</router-link> |
     <router-link to="/CustomDiretiveView">CustomDiretiveView</router-link> |
     <router-link to="/PluginsView">PluginsView</router-link> |
-    <router-link to="/StoreAccessView">StoreAccessView</router-link>
+    <router-link to="/StoreAccessView">StoreAccessView</router-link> |
+    <router-link to="/KakaoLoginView">KakaoLoginView</router-link>
   </nav>
   <router-view/>
 </template>
